@@ -691,6 +691,7 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: var(--space-xl);
   align-items: center;
+  grid-template-areas: "text image";
 }
 
 .about-text h3 {
@@ -750,6 +751,28 @@ button {
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* ✅ Mobile override*/
+@media (max-width: 768px) {
+  .about-content {
+    display: flex !important;        /* override grid */
+    flex-direction: column;          /* stack vertically */
+    gap: var(--space-lg);
+  }
+
+  .about-image {
+    order: 1;
+  }
+
+  .about-text {
+    order: 2;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* ✅ Hover Effect */
@@ -3046,3 +3069,4 @@ a.btn-secondary:hover {
     padding: var(--space-md);
   }
 }
+
