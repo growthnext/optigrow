@@ -1,0 +1,15 @@
+# robots.txt for OptiGROW Outsoutsourcing Private Limited
+# https://www.optigrow.co.in
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.optigrow.co.in/sitemap.xml
+
+# Disallow access to specific directories (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay (optional, use if needed)
+# Crawl-delay: 10

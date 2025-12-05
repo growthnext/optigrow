@@ -1,0 +1,39 @@
+optigrow-website/
+│
+├── index.html # Homepage
+├── about.html # About page
+├── services.html # Services page (JS-based transitions)
+├── how-it-works.html # Process & technology page
+├── why-outsource.html # Educational page
+├── contact.html # Contact page
+├── sitemap.xml # XML sitemap for SEO
+├── robots.txt # Robots directives
+├── package.json # NPM configuration
+├── build.js # Build verification script
+├── README.md # This file
+│
+├── assets/
+│ ├── css/
+│ │ └── styles.css # Main stylesheet (all styles)
+│ │
+│ ├── js/
+│ │ ├── main.js # Main JavaScript functionality
+│ │ └── config.js # Configuration (phone, WhatsApp, etc.)
+│ │
+│ └── images/
+│ ├── logo.webp # Company logo
+├─├── logo1.webp # Company favicon logo
+│ ├── team/ # Team member photos
+│ │ ├── team-1.webp # CA Jitendra Sharma
+│ │ ├── team-2.webp # CA Bhavika Veera
+│ │ └── team-3.webp # CA Vinod Gupta
+│ │
+│ └── services/ # Service images
+│ ├─── 11.webp # Payroll Processing
+│ ├─── 12.webp # Compliance Management
+│ ├─── 13.webp # Employee Database
+│ ├─── 14.webp # Advisory & Support
+│ ├─── 15.webp # Why outsource reason 1
+│ ├─── 16.webp # Why outsource reason 2
+│ ├─── 17.webp # Why outsource reason 3
+│ └─── 18.webp # Why outsource reason 4

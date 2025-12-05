@@ -1,0 +1,24 @@
+{
+  "name": "optigrow-outsourcing-website",
+  "version": "1.0.0",
+  "description": "Corporate website for OptiGROW Outsourcing Private Limited - Payroll Outsourcing Specialists",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npx http-server -p 8000",
+    "start": "npm run dev && echo.\n && echo 'Server is running at:' && echo '  http://localhost:8000' && echo.\n && echo 'Access via local IP:' && for /f \"tokens=2 delims=:\" %a in ('ipconfig ^| findstr /i \"IPv4\"') do echo '  http://%a:8000'"
+  },
+  "keywords": [
+    "payroll",
+    "outsourcing",
+    "optigrow",
+    "corporate",
+    "website"
+  ],
+  "author": "OptiGROW Outsourcing Private Limited",
+  "license": "PROPRIETARY",
+  "devDependencies": {},
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
