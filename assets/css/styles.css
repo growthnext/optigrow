@@ -1672,6 +1672,56 @@ button {
   background: linear-gradient(135deg, #1e88ff, #42a5ff);
 }
 
+/* 👉 Tablet: 2 cards per row */
+@media (max-width: 1024px) {
+  .workflow-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-md);
+  }
+
+  .workflow-step {
+    padding: var(--space-md);
+  }
+
+  .step-title {
+    font-size: 18px;
+  }
+
+  .step-description,
+  .step-points li {
+    font-size: 14px;
+  }
+}
+
+/* 👉 Mobile: 1 card per row, tighter spacing */
+@media (max-width: 768px) {
+  .workflow-steps {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .workflow-step {
+    padding: var(--space-md);
+  }
+
+  .step-number {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    margin-bottom: var(--space-sm);
+  }
+
+  .step-points li {
+    padding-left: 28px;
+    margin-bottom: 8px;
+  }
+
+  .deliverable-box {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+}
+
 /* ========================================
    ACCORDION
    ======================================== */
@@ -3069,4 +3119,5 @@ a.btn-secondary:hover {
     padding: var(--space-md);
   }
 }
+
 
